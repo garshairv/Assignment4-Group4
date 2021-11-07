@@ -4,6 +4,7 @@
 #include "SimpleTCPSocket.hpp"
 #include "time.h"
 
+
 G4::SimpleTCPSocket::SimpleTCPSocket(int port, int type) {
     //AF_INET => TCP socket
     address.sin_family = AF_INET;
