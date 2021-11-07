@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/izzy/CLionProjects/C++/assign4_client/SimpleTCPSocket.cpp" "/Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o"
-  "/Users/izzy/CLionProjects/C++/assign4_client/main.cpp" "/Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles/assign4_client.dir/main.cpp.o"
+  "/Users/izzy/CLionProjects/Assignment4-Group4/SimpleTCPSocket.cpp" "/Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o"
+  "/Users/izzy/CLionProjects/Assignment4-Group4/main.cpp" "/Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles/assign4_client.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

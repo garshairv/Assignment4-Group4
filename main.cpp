@@ -44,7 +44,7 @@ static void * doit(void * arg) {
     read(clientsock, buffer, 30000);
     std::cout << "Buffer read.\n";
     std::cout << buffer;
-    char *hello = R"(HTTP/1.1 \r\nContent-Type: text/html; charset=ISO-8859-4 \r\n\r\n<html><body><p>Hello from Server</p></body></html>)";
+    char *hello = "HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<!DOCTYPE html><html><body><p>Hello from Server</p></body></html>";
     std::cout << "Preparing to send." << std::endl;
     auto sent = write(clientsock, hello, strlen(hello));
     std::cout << "Sent bytes: " << sent << std::endl << std::endl;

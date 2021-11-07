@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/izzy/CLionProjects/C++/assign4_client
+CMAKE_SOURCE_DIR = /Users/izzy/CLionProjects/Assignment4-Group4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/assign4_client.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/assign4_client.dir/flags.make
 
 CMakeFiles/assign4_client.dir/main.cpp.o: CMakeFiles/assign4_client.dir/flags.make
 CMakeFiles/assign4_client.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assign4_client.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assign4_client.dir/main.cpp.o -c /Users/izzy/CLionProjects/C++/assign4_client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assign4_client.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assign4_client.dir/main.cpp.o -c /Users/izzy/CLionProjects/Assignment4-Group4/main.cpp
 
 CMakeFiles/assign4_client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assign4_client.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/izzy/CLionProjects/C++/assign4_client/main.cpp > CMakeFiles/assign4_client.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/izzy/CLionProjects/Assignment4-Group4/main.cpp > CMakeFiles/assign4_client.dir/main.cpp.i
 
 CMakeFiles/assign4_client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assign4_client.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/izzy/CLionProjects/C++/assign4_client/main.cpp -o CMakeFiles/assign4_client.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/izzy/CLionProjects/Assignment4-Group4/main.cpp -o CMakeFiles/assign4_client.dir/main.cpp.s
 
 CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o: CMakeFiles/assign4_client.dir/flags.make
 CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o: ../SimpleTCPSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o -c /Users/izzy/CLionProjects/C++/assign4_client/SimpleTCPSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o -c /Users/izzy/CLionProjects/Assignment4-Group4/SimpleTCPSocket.cpp
 
 CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/izzy/CLionProjects/C++/assign4_client/SimpleTCPSocket.cpp > CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/izzy/CLionProjects/Assignment4-Group4/SimpleTCPSocket.cpp > CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.i
 
 CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/izzy/CLionProjects/C++/assign4_client/SimpleTCPSocket.cpp -o CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/izzy/CLionProjects/Assignment4-Group4/SimpleTCPSocket.cpp -o CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.s
 
 # Object files for target assign4_client
 assign4_client_OBJECTS = \
@@ -115,7 +115,7 @@ assign4_client: CMakeFiles/assign4_client.dir/main.cpp.o
 assign4_client: CMakeFiles/assign4_client.dir/SimpleTCPSocket.cpp.o
 assign4_client: CMakeFiles/assign4_client.dir/build.make
 assign4_client: CMakeFiles/assign4_client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable assign4_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable assign4_client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assign4_client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/assign4_client.dir/clean:
 .PHONY : CMakeFiles/assign4_client.dir/clean
 
 CMakeFiles/assign4_client.dir/depend:
-	cd /Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/izzy/CLionProjects/C++/assign4_client /Users/izzy/CLionProjects/C++/assign4_client /Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug /Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug /Users/izzy/CLionProjects/C++/assign4_client/cmake-build-debug/CMakeFiles/assign4_client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/izzy/CLionProjects/Assignment4-Group4 /Users/izzy/CLionProjects/Assignment4-Group4 /Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug /Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug /Users/izzy/CLionProjects/Assignment4-Group4/cmake-build-debug/CMakeFiles/assign4_client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/assign4_client.dir/depend
 
